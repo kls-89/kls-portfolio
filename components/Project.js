@@ -1,11 +1,12 @@
 import { v4 as uuidv4 } from 'uuid';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Button from 'react-bootstrap/Button';
 
 const Project = props => {
   return (
-    <Card className="mt-4">
-      <Card.Header as="h4">{props.title}</Card.Header>
+    <Card text="dark" border="dark" className="mt-4">
+      <Card.Header className="py-4 text-danger" as="h3">{props.title}</Card.Header>
       <Card.Body>
         <Card.Text>
           <strong>Project Description</strong>: {props.description}
@@ -19,14 +20,15 @@ const Project = props => {
           ))}
         </ListGroup>
       </Card.Body>
-      <Card.Link
+      <Button
+        className="py-3"
         target="_blank"
         rel="noopener"
         rel="noreferrer"
         href={props.url}
       >
         View on Github
-      </Card.Link>
+      </Button>
     </Card>
   );
 };
