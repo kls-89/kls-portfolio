@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <div style={{ marginTop: '10vh' }}>
+        <div style={{ marginTop: '5vh' }}>
           <h1 className="important">Keenan Leonard-Solís</h1>
           <p className="lead">
             Seeking opportunities to utilize the best technology available to
