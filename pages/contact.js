@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Contact = () => {
   return (
     <Layout>
-      <div style={{ marginTop: '20vh' }}>
+      <div style={{ marginTop: '5vh' }}>
         <h1>Let's Connect</h1>
         <p className="lead">
           If you think I'd be a good fit for your company, please let me know!
