@@ -1,16 +1,19 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const Navigation = () => {
   return (
-    <Navbar fixed="top" bg="dark" variant="dark" expand="md">
+    <Navbar collapseOnSelect fixed="top" bg="dark" variant="dark" expand="md">
       <Link href="/" passHref>
         <Navbar.Brand>KL-S</Navbar.Brand>
       </Link>
+
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
       <Navbar.Collapse
-        className="justify-content-end"
+        className="justify-content-start"
         id="responsive-navbar-nav"
       >
         <Nav className="mr-auto">
