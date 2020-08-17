@@ -5,9 +5,18 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Contact = () => {
   return (
     <Layout>
-      <>
+      <div style={{ marginTop: '20vh' }}>
         <h1>Let's Connect</h1>
-        <div style={{ display: 'flex', justifyContent: 'space-betweenfind' }}>
+        <p className="lead">
+          If you think I'd be a good fit for your company, please let me know!
+        </p>
+        <p className="lead">You can reach me via:</p>
+        <div
+          className="d-flex flex-column flex-sm-row  align-items-center justify-content-around"
+          style={{
+            marginBottom: '1.5em'
+          }}
+        >
           <a href="mailto: k.leonardsolis@gmail.com?subject=Portfolio Reply">
             <FontAwesomeIcon width="3em" size="3x" icon={faEnvelope} />
           </a>
@@ -38,7 +47,7 @@ const Contact = () => {
             />
           </a>
         </div>
-      </>
+      </div>
     </Layout>
   );
 };
