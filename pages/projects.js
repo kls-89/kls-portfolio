@@ -91,7 +91,7 @@ const Projects = () => {
         />
         <Project
           title="Detail Tracker"
-          description="The filling of police detail assignments is a time consuming process that, in many agencies, is still done by hand. After years of doing it the same way, I grew tired of the monotony and loss of productivity this daily task generates.
+          description="The filling of police detail assignments is a time consuming process that is still done by hand at many agencies. After years of doing it the same way, I grew tired of the monotony and loss of productivity this daily task generates.
           My goal with the project is to completely overhaul the process by creating a web-based platform where individual agencies can: create and track their own detail assignments, manage billing information, generate reports for individual officers looking to track their earnings,  easily view which other neighboring agencies have availability to fill a detail request, and more.
           NB: this project is currently on pause while I contemplate the best strategy for managing user permissions and authorization."
           url="https://github.com/kls-89/detail-tracker"
@@ -113,7 +113,7 @@ const Projects = () => {
         </h2>
         <Project
           title="Portfolio Page"
-          description="I built this webpage you're viewing with Next.js...check out the code here!"
+          description="I built the website you're viewing with Next.js...check out the code here!"
           url="https://github.com/kls-89/kls-portfolio"
           technologies={[
             'Bootstrap 4 (react-bootstrap)',
