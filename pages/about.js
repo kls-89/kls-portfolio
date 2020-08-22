@@ -23,7 +23,7 @@ const About = () => {
           best technology available.
         </p>
         <p>
-          I’m believe that our world would be a better place if more people knew
+          I believe that our world would be a better place if more people knew
           a thing or two about the technology, infrastructure, and processes
           that make it run. To this end, I hope to one day use my programming
           knowledge and skills to help others find the spark for innovation and
