@@ -65,6 +65,7 @@ const TechIcons = () => {
             size="3x"
           />
         </div>
+    </div>
   );
 }
 
