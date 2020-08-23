@@ -29,7 +29,7 @@ const Project = props => {
         rel="noreferrer"
         href={props.url}
       >
-        View on Github  <FontAwesomeIcon icon={faGithub} color="#333" width="3em" size="3x" />
+        View on Github  <FontAwesomeIcon icon={faGithub} color="#333" width="1em" size="1x" />
       </Button>
     </Card>
   );
