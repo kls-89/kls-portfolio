@@ -57,7 +57,7 @@ const TechIcons = () => {
             width="3em"
             size="3x"
           />
-          <FontAwesomeIcon icon={faGithub} color="#333" width="3em" size="3x" />
+          <FontAwesomeIcon icon={faGithub} color="#333" width="1em" size="1x" />
           <FontAwesomeIcon
             icon={faBootstrap}
             color="#563d7c"
