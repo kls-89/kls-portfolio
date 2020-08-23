@@ -2,6 +2,8 @@ import { v4 as uuidv4 } from 'uuid';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Project = props => {
   return (
@@ -27,7 +29,7 @@ const Project = props => {
         rel="noreferrer"
         href={props.url}
       >
-        View on Github
+        View on Github  <FontAwesomeIcon icon={faGithub} color="#333" />
       </Button>
     </Card>
   );
