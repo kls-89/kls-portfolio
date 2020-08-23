@@ -6,6 +6,7 @@ const Projects = () => {
   return (
     <Layout>
     <TechIcons />
+    <div>
         <h2>
           <strong>Work-Related Projects</strong>
         </h2>
